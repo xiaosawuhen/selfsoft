@@ -1,0 +1,87 @@
+{
+    "serviceType": "RIDE",
+    "carId": 7,
+    "appointmentTempId": 5792,
+    "customerId": 357,
+    "customerAppointmentTempId": 4976,
+    "phone": "+86-",
+    "age": "2",
+    "sex": "1",
+    "address": "8",
+    "drivingAge": "1",
+    "drivingRate": "2",
+    "appointmentNumber": 3,
+    "isChildSeat": "0",
+    "childSeatTypeS": 0,
+    "childSeatTypeM": 0,
+    "childSeatTypeB": 0,
+    "questionnaire": [
+        {
+            "customerqnId": 5914,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5915,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5916,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5917,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5918,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5919,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5920,
+            "contentId": null,
+            "qnaireResult": ""
+        },
+        {
+            "customerqnId": 5921,
+            "contentId": null,
+            "qnaireResult": "adsg"
+        },
+        {
+            "customerqnId": 5922,
+            "contentId": null,
+            "qnaireResult": "agd"
+        },
+        {
+            "customerqnId": 5923,
+            "contentId": null,
+            "qnaireResult": "adf"
+        },
+        {
+            "customerqnId": 5924,
+            "contentId": null,
+            "qnaireResult": "waeg"
+        },
+        {
+            "customerqnId": 5925,
+            "contentId": "127",
+            "qnaireResult": null
+        },
+        {
+            "customerqnId": 5926,
+            "contentId": null,
+            "qnaireResult": "aweg"
+        }
+    ],
+    "isNeedDriver": "0",
+    "driverStatus": 3
+}

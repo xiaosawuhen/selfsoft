@@ -1,0 +1,248 @@
+{
+	
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/root.json",
+	"title": "The Root Schema",
+	"type": "object",
+	"properties": {
+		
+		"serviceType": {
+			
+			"$id": "#/properties/serviceType",
+			"title": "The serviceType Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"RIDE"
+			],
+			"pattern": "^(.*)$"
+		},
+		"customerAppointmentTempId": {
+			
+			"$id": "#/properties/customerAppointmentTempId",
+			"title": "The customerAppointmentTempId Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				4976
+			]
+		},
+		"address": {
+			
+			"$id": "#/properties/address",
+			"title": "The address Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"8"
+			],
+			"pattern": "^(.*)$"
+		},
+		"sex": {
+			
+			"$id": "#/properties/sex",
+			"title": "The sex Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"1"
+			],
+			"pattern": "^(.*)$"
+		},
+		"isChildSeat": {
+			
+			"$id": "#/properties/isChildSeat",
+			"title": "The isChildSeat Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"0"
+			],
+			"pattern": "^(.*)$"
+		},
+		"childSeatTypeM": {
+			
+			"$id": "#/properties/childSeatTypeM",
+			"title": "The childSeatTypeM Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				0
+			]
+		},
+		"isNeedDriver": {
+			
+			"$id": "#/properties/isNeedDriver",
+			"title": "The isNeedDriver Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"0"
+			],
+			"pattern": "^(.*)$"
+		},
+		"appointmentNumber": {
+			
+			"$id": "#/properties/appointmentNumber",
+			"title": "The appointmentNumber Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				3
+			]
+		},
+		"driverStatus": {
+			
+			"$id": "#/properties/driverStatus",
+			"title": "The driverStatus Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				3
+			]
+		},
+		"childSeatTypeS": {
+			
+			"$id": "#/properties/childSeatTypeS",
+			"title": "The childSeatTypeS Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				0
+			]
+		},
+		"carId": {
+			
+			"$id": "#/properties/carId",
+			"title": "The carId Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				7
+			]
+		},
+		"childSeatTypeB": {
+			
+			"$id": "#/properties/childSeatTypeB",
+			"title": "The childSeatTypeB Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				0
+			]
+		},
+		"appointmentTempId": {
+			
+			"$id": "#/properties/appointmentTempId",
+			"title": "The appointmentTempId Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				5792
+			]
+		},
+		"phone": {
+			
+			"$id": "#/properties/phone",
+			"title": "The phone Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"+86-"
+			],
+			"pattern": "^(.*)$"
+		},
+		"drivingAge": {
+			
+			"$id": "#/properties/drivingAge",
+			"title": "The drivingAge Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"1"
+			],
+			"pattern": "^(.*)$"
+		},
+		"customerId": {
+			
+			"$id": "#/properties/customerId",
+			"title": "The customerId Schema",
+			"type": "integer",
+			"default": 0,
+			"examples": [
+				357
+			]
+		},
+		"drivingRate": {
+			
+			"$id": "#/properties/drivingRate",
+			"title": "The drivingRate Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"2"
+			],
+			"pattern": "^(.*)$"
+		},
+		"age": {
+			
+			"$id": "#/properties/age",
+			"title": "The age Schema",
+			"type": "string",
+			"default": "",
+			"examples": [
+				"2"
+			],
+			"pattern": "^(.*)$"
+		},
+		"questionnaire": {
+		"$id": "#/properties/questionnaire",
+		"title": "The questionnaire Schema",
+		"type": "array",
+		"items": {
+			
+			"$id": "#/properties/questionnaire/items",
+			"title": "The items Schema",
+			"type": "object",
+			"properties": {
+				
+				"customerqnId": {
+					
+					"$id": "#/properties/questionnaire/items/properties/customerqnId",
+					"title": "The customerqnId Schema",
+					"type": "integer",
+					"default": 0,
+					"examples": [
+						5914
+					]
+				},
+				"qnaireResult": {
+					
+					"$id": "#/properties/questionnaire/items/properties/qnaireResult",
+					"title": "The qnaireResult Schema",
+					"type": "string",
+					"default": "",
+					"examples": [
+						""
+					],
+					"pattern": "^(.*)$"
+				},
+				"contentId": {
+					
+					"$id": "#/properties/questionnaire/items/properties/contentId",
+					"title": "The contentId Schema",
+					"type": "string",
+					"default": "",
+					"examples": [
+						"null"
+					],
+					"pattern": "^(.*)$"
+				}
+			},
+			"required": ["customerqnId","qnaireResult","contentId"]
+		}
+	}
+},
+"required": ["serviceType","customerAppointmentTempId","address","sex","isChildSeat","childSeatTypeM","isNeedDriver","appointmentNumber","driverStatus","childSeatTypeS","carId","childSeatTypeB","appointmentTempId","phone","drivingAge","customerId","drivingRate","age","questionnaire"]
+}
